@@ -32,7 +32,7 @@ module Spree
         sum
       end
 
-      total == 0 ? nil : total
+      return total
     end
 
     def eligible?(order)
